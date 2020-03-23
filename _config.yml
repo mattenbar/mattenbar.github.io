@@ -1,11 +1,11 @@
 # Site settings
-author: matthew enbar
-title: 
+author: Mtthew Enbar
+title: Matthew's Coding Blog
 header-img: img/home-bg.png
 email: matthew.enbar@gmail.com
-copyright_name: matthew enbar
+copyright_name: Mtthew Enbar
 description: > # this means to ignore newlines until "baseurl:"
-  
+  And adventure of coding through quarantine and hopefully soon after
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mattenbar
