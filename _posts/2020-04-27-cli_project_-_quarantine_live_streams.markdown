@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Project - Quarantine Live Streams"
-date:       2020-04-27 15:00:49 +0000
+date:       2020-04-27 11:00:51 -0400
 permalink:  cli_project_-_quarantine_live_streams
 ---
 
@@ -39,15 +39,16 @@ After realising the my program is not some giant illusive thing i started to tac
 Scraper class:
    the scraper class implements nokogiri to scrape (read throught the website code) a website (in my case i used NPR) to return  JSON nodesets that we can then use to find information. To explain better it gives you a magnet so you can find that needle in the haystack
 	 
-	 ![](https://static1.squarespace.com/static/58261c4020099e94eacfcb0b/58348de54402438234b94ec4/5d8b7312c0a64117821c27ac/1569506079215/haymagnet1500w.jpg?format=1500w)
+![](https://static1.squarespace.com/static/58261c4020099e94eacfcb0b/58348de54402438234b94ec4/5d8b7312c0a64117821c27ac/1569506079215/haymagnet1500w.jpg?format=1500w)
+
 	 
-	 Now that i have all the needles i need it's time to get sewing. I took that information and created hashes with information for each event and stored them neatly and nicely in an array
+Now that i have all the needles i need it's time to get sewing. I took that information and created hashes with information for each event and stored them neatly and nicely in an array
 	 
 	 
 Event class:
     Once we have all our information the Event class takes the array and creates instances of of the event class. each instance is now its own living thing. It knows its name, its genre, the date , the time etc...
 		
-		![](https://stevetobak.com/wp-content/uploads/2018/12/its-alive.jpg)
+![](https://stevetobak.com/wp-content/uploads/2018/12/its-alive.jpg)
 		
 Cli class:
     Now that everything is done and we have these objects its time to create how the user interacts with the program. The CLI is responsible for presenting the user with choice asking them what they want and then returning to them what they asked for.
