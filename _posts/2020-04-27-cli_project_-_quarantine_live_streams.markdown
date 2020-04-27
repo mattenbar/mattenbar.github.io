@@ -56,5 +56,5 @@ Cli class:
 		
 **GIVE IT A TRY**
 
-Here you will be able to find my project. I hope you enjoy [https://github.com/mattenbar/QLS](http://https://github.com/mattenbar/QLS)
+Here you will be able to find my project. I hope you enjoy [https://github.com/mattenbar/QLS](https://github.com/mattenbar/QLS)
 
