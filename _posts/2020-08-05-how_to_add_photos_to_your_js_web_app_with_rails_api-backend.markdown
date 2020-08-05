@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to add Photos to your JS web app with Rails Api-Backend"
-date:       2020-08-05 12:26:11 +0000
+date:       2020-08-05 08:26:12 -0400
 permalink:  how_to_add_photos_to_your_js_web_app_with_rails_api-backend
 ---
 
@@ -83,3 +83,7 @@ def img_upload
 ```
 
 Using cloudinary's method `Cloudinary::Uploader.upload(params[:file], options = {})` you now have acccess to (from the gem). The photo gets uploaded to their cloud based server and returns to you a URL for the photo that can be stored as an attribute on your user model.
+
+You can view the repos to my project here: https://github.com/mattenbar/PupPals_frontend
+
+and the back end here: https://github.com/mattenbar/PupPals_backend
