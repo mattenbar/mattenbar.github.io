@@ -48,7 +48,13 @@ Finally our follow model:
 Once our relationships are set up we can now call methods like user.follower_users to see who follows the user or user.followed_users to see who the user follows.
 
 Feel free to check out the backend code on my github here:
-https://github.com/mattenbar/PupPals_frontend
+
+https://github.com/mattenbar/PupPals_backend
+
+
 
 and the front end here: 
-https://github.com/mattenbar/PupPals_backend
+
+https://github.com/mattenbar/PupPals_frontend
+
+
