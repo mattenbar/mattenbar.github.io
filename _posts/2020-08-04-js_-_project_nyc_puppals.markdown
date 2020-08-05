@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JS - Project NYC PupPals"
-date:       2020-08-04 23:59:46 +0000
+date:       2020-08-04 19:59:47 -0400
 permalink:  js_-_project_nyc_puppals
 ---
 
@@ -47,5 +47,8 @@ Finally our follow model:
 
 Once our relationships are set up we can now call methods like user.follower_users to see who follows the user or user.followed_users to see who the user follows.
 
-Feel free to check out the backend code on my github here: https://github.com/mattenbar/PupPals_backend
-and the front end here: https://github.com/mattenbar/PupPals_frontend
+Feel free to check out the backend code on my github here:
+[](https://github.com/mattenbar/PupPals_backend)
+
+and the front end here: 
+[](https://github.com/mattenbar/PupPals_frontend)
