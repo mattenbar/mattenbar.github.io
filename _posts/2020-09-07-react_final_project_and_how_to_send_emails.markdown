@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Final Project & how to send emails"
-date:       2020-09-07 20:47:05 +0000
+date:       2020-09-07 16:47:06 -0400
 permalink:  react_final_project_and_how_to_send_emails
 ---
 
@@ -12,7 +12,7 @@ For my final project (much like my other projects) I decided to create something
 
 Invoice Tracker is a web app that utilizes a Rails Api back-end with a React.js front-end. The app allows for creating of invoices as well as customers. On the home page you can see how many invoices you have, how much you have earned and how much you have not been paid yet.
 
-One additonal feature i would like to talk about is the ability to e-mail an invoice to a client. For each invoice there is a button to email the invoice to the client/ customer. I was able to do this using [EmailJS](https://www.emailjs.com)
+One additonal feature i would like to talk about is the ability to e-mail an invoice to a client. For each invoice there is a button to email the invoice to the client/ customer. I was able to do this using [](https://www.emailjs.com)
 
 To implement emailing first sign up for emailjs and create your email template. When your template is complete be sure to use npm to add the node package 
 ```
@@ -42,6 +42,6 @@ After that you will now have access to the function emailjs.send(). Here is an e
 
 Setting up and executing email was made simple with emailjs and no need for anything to be added to the backend.
 
-To view my entire project here is the link to the front-end [[Invoice Tracker Front-End](https://github.com/mattenbar/invoices-frontend)
+To view my entire project here is the link to the front-end [](https://github.com/mattenbar/invoices-frontend)
 
-Link to back-end [Invoice Tracker Back-End](https://github.com/mattenbar/invoices-backend)
+Link to back-end [](https://github.com/mattenbar/invoices-backend)
