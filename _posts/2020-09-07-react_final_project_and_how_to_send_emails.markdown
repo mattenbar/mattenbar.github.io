@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "React Final Project & how to send emails"
+title:      "React Final Project & How to Send Emails"
 date:       2020-09-07 16:47:06 -0400
 permalink:  react_final_project_and_how_to_send_emails
 ---
@@ -8,11 +8,11 @@ permalink:  react_final_project_and_how_to_send_emails
 
 After 6 intense months of learning and studying I have finally reached the end of the software engineering course at Flatiron School. It has been an amazing journey where i have learned so much as well connect with some truly amazing people.
 
-For my final project (much like my other projects) I decided to create something that I have a connection to or I could see myself using. As a freelance photographer for the past 10 years I was constantly writing invoices and trying to keep track of who paid me, who didnt, how much did I earn and of course how much I was owed. From there my app Invoice Tracker was born.
+For my final project (much like my other projects) I decided to create something that I have a connection to or I could see myself using. As a freelance photographer for the past 10 years I was constantly writing invoices and trying to keep track of who paid me, who didn't, how much did I earn and of course how much I was owed. From there my app Invoice Tracker was born.
 
 Invoice Tracker is a web app that utilizes a Rails Api back-end with a React.js front-end. The app allows for creating of invoices as well as customers. On the home page you can see how many invoices you have, how much you have earned and how much you have not been paid yet.
 
-One additonal feature i would like to talk about is the ability to e-mail an invoice to a client. For each invoice there is a button to email the invoice to the client/ customer. I was able to do this using [](https://www.emailjs.com)
+One additional feature i would like to talk about is the ability to e-mail an invoice to a client. For each invoice there is a button to email the invoice to the client/ customer. I was able to do this using [](https://www.emailjs.com)
 
 To implement emailing first sign up for emailjs and create your email template. When your template is complete be sure to use npm to add the node package 
 ```
